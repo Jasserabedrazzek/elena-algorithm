@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Footer = () => {
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+  const [currentYear] = useState(new Date().getFullYear());
   const [showScrollTop, setShowScrollTop] = useState(false);
   
   useEffect(() => {
@@ -67,5 +67,6 @@ const Footer = () => {
     </div>
   );
 };
+
 
 export default Footer;
