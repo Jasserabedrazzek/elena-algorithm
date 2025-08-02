@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elena-algorithms.netlify.app/sitemap.xml
